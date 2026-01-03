@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus | Intelligence Briefing 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="squeeze-container">
+        <div class="content-side">
+            <div class="logo">NEXUS<span>.</span></div>
+            <div class="badge">Limited Access: Elite Protocol</div>
+            <h1>The 2026 <span>Intelligence</span> Report.</h1>
+            <p>We analyzed 10,000+ SaaS workflows. Discover the 3 automation protocols that saved elite teams 40+ hours per week.</p>
+            
+            <ul class="benefit-list">
+                <li><span class="check">✓</span> The "Zero-Inbox" Automation Script</li>
+                <li><span class="check">✓</span> AI Resource Allocation Templates</li>
+                <li><span class="check">✓</span> 2026 Tech Stack Audit Checklist</li>
+            </ul>
+        </div>
+
+        <div class="form-side">
+            <div class="glass-card">
+                <div class="progress-container">
+                    <div class="progress-text">Briefing Status: <strong>90% Encrypted</strong></div>
+                    <div class="progress-bar"><div class="progress-fill"></div></div>
+                </div>
+
+                <div class="timer-box">
+                    <span>Access link expires in:</span>
+                    <div id="countdown">09:59</div>
+                </div>
+
+                <h2>Get the Briefing</h2>
+                <p>Enter your professional email to receive the PDF instantly via WhatsApp/Email.</p>
+                
+                <form id="squeezeForm">
+                    <div class="input-group">
+                        <input type="email" id="userEmail" placeholder="name@company.com" required>
+                    </div>
+                    <button type="submit" class="btn-submit">Claim Your Copy Now</button>
+                    <p class="privacy-note">🔒 SSL Encrypted. No spam, ever.</p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="liveToast" class="live-toast">
+        <div class="toast-icon">🔥</div>
+        <div class="toast-text">
+            <span id="toastLocation">Someone from Beirut</span> just claimed the report.
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
